@@ -5,8 +5,7 @@ var timerValue = document.getElementById('timer-value');
 var timer = 30;
 
 
-""""""""""
-this functoin that update the score every time you click on a ballon
+//this functoin that update the score every time you click on a ballon
 function createBallon() {
 	var ballon = document.createElement('div');
 	ballon.className = 'ballon';
