@@ -1,0 +1,31 @@
+#container {
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	position: relative;
+}
+.ballon {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: red;
+	position: absolute;
+	cursor: pointer;
+	animation-name: ballon-animation;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes ballon-animation {
+	from { top: 0; }
+	to { top: 420px; }
+}
+#score {
+	margin-top: 20px;
+	text-align: center;
+}
+#timer {
+	margin-top: 20px;
+	text-align: center;
+}
